@@ -5,7 +5,11 @@ public class Program
     public static void Main(string[] args)
     {
         Console.Title = "VectorMath";
-        VectorClass vec = new VectorClass();
-        vec.Loop();
+        Loop program = new Loop();
+        program.Program();
+
+
+        //VectorClass vec = new VectorClass();
+        //vec.Loop();
     }
 }
